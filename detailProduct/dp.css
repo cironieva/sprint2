@@ -5,7 +5,7 @@
   background-color: var(--primary);
   justify-content: space-between;
   width: 100vw;
-  position: sticky;
+  position: fixed;
   font-weight: 900;
 }
 
@@ -17,6 +17,53 @@ i {
   padding: .12em;
 }
 
+/* MAIN */
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  padding: 1em;
+}
+
+img {
+  width: 70%;
+  padding: 0 1em;
+  margin-bottom: 1em;
+  background-color: var(--text);
+
+}
+
+.desc {
+  width: 100%;
+  text-align: center;
+  padding: 1em;
+}
+
+.price {
+  width: 50%;
+  font-size: 2em;
+  text-align: center;
+  margin: 1em 0;
+}
+
+.add {
+  width: 35%;
+  height: 8vh;
+  align-self: center;
+  background: var(--primary);
+  border: none;
+  font-weight: 900;
+}
+
+.add:hover {
+  background: #1b2d31;
+}
 
 /* FOOTER */
 

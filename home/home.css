@@ -5,7 +5,7 @@
   background-color: var(--primary);
   justify-content: space-between;
   width: 100vw;
-  position: sticky;
+  position: fixed;
   font-weight: 900;
 }
 
@@ -22,6 +22,33 @@ i {
   color: var(--primary);
 }
 
+/* MAIN */
+
+section {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 3em;
+}
+
+.title {
+  width: 100vw;
+  text-align: center;
+  padding: .5em;
+}
+
+.price {
+  width: 100vw;
+  text-align: center;
+  align-self: flex-end;
+  font-size: 1.5em;
+}
+
+img {
+  background: var(--text);
+  padding: 0 2em;
+}
 
 /* FOOTER */
 
@@ -31,7 +58,7 @@ i {
   width: 100vw;
   justify-content: space-evenly;
   align-items: center;
-  position: absolute;
+  position: relative;
   bottom: 0;
   flex-wrap: wrap;
 }

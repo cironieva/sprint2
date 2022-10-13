@@ -22,6 +22,68 @@ i {
   color: var(--primary);
 }
 
+/* MAIN */
+
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  padding: 1em;
+}
+
+img {
+  background-color: var(--text);
+  padding: 0 2em;
+  width: 47%;
+}
+
+.h2 {
+  width: 100%;
+  font-size: 1.15em;
+  text-align: center;
+  padding: .5em 0;
+}
+
+.p {
+  align-self: center;
+  font-size: 1.45em;
+  margin: .05em;
+}
+
+.add-rest {
+  color: var(--primary);
+  align-self: center;
+  width: 2em;
+  margin: .2em;
+  font-weight: 900;
+}
+
+aside {
+  display: flex;
+  padding: 1em;
+}
+
+.total {
+  margin: 1em;
+  text-align: center;
+  font-size: 1.35em;
+  font-weight: 700;
+}
+
+.buy {
+  border: none;
+  background: var(--primary);
+  color: var(--text);
+  width: 10em;
+  height: 3em;
+  margin: .3em;
+  align-self: center;
+  font-weight: 900;
+}
+
+.buy:hover {
+  background-color: #1b2d31;
+}
 
 /* FOOTER */
 

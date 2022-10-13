@@ -5,7 +5,7 @@
   background-color: var(--primary);
   justify-content: space-between;
   width: 100vw;
-  position: sticky;
+  position: fixed;
   font-weight: 900;
 }
 
@@ -22,6 +22,45 @@ i {
   color: var(--primary);
 }
 
+/* MAIN */
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  background-color: var(--secondary);
+  padding: 1em;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 40%;
+  align-content: space-around;
+  justify-content: center;
+}
+
+input {
+  width: 15em;
+  height: 18%;
+  color: #000;
+  padding: 1em;
+}
+
+input::placeholder {
+  font-weight: 900;
+}
+
+.submit {
+  background-color: var(--primary);
+  border: none;
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+}
 
 /* FOOTER */
 
